@@ -8,11 +8,11 @@ import torch
 from mmengine.config import ConfigDict
 from mmengine.structures import InstanceData, LabelData
 
-from mmocr import digit_version
+from mmengine.utils import digit_version
 from mmocr.structures import (KIEDataSample, TextDetDataSample,
                               TextRecogDataSample, TextSpottingDataSample)
 
-# Config
+# Configpip install -U openmim
 ConfigType = Union[ConfigDict, Dict]
 OptConfigType = Optional[ConfigType]
 MultiConfig = Union[ConfigType, List[ConfigType]]
