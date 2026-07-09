@@ -1,0 +1,130 @@
+{
+  "per_image": [
+    {
+      "name": "demo_densetext_det.jpg",
+      "gt_det": 1724,
+      "pred_det": 1494,
+      "gt_rec": 1724,
+      "pred_rec": 1494,
+      "det": {
+        "precision": 0.7952,
+        "recall": 0.6891,
+        "hmean": 0.7383,
+        "gt_num": 1724,
+        "pred_num": 1494,
+        "match_num": 1188
+      },
+      "rec": {
+        "word_acc": 0.0027,
+        "word_acc_ignore_case": 0.0027,
+        "word_acc_ignore_case_symbol": 0.0027,
+        "char_recall": 0.1546,
+        "char_precision": 0.1909,
+        "one_minus_ned": 0.0924
+      }
+    },
+    {
+      "name": "demo_kie.jpeg",
+      "gt_det": 90,
+      "pred_det": 62,
+      "gt_rec": 90,
+      "pred_rec": 62,
+      "det": {
+        "precision": 0.4677,
+        "recall": 0.3222,
+        "hmean": 0.3816,
+        "gt_num": 90,
+        "pred_num": 62,
+        "match_num": 29
+      },
+      "rec": {
+        "word_acc": 0.0161,
+        "word_acc_ignore_case": 0.0161,
+        "word_acc_ignore_case_symbol": 0.0161,
+        "char_recall": 0.1091,
+        "char_precision": 0.12,
+        "one_minus_ned": 0.059
+      }
+    },
+    {
+      "name": "demo_text_det.jpg",
+      "gt_det": 23,
+      "pred_det": 14,
+      "gt_rec": 23,
+      "pred_rec": 14,
+      "det": {
+        "precision": 0.5,
+        "recall": 0.3043,
+        "hmean": 0.3784,
+        "gt_num": 23,
+        "pred_num": 14,
+        "match_num": 7
+      },
+      "rec": {
+        "word_acc": 0.0,
+        "word_acc_ignore_case": 0.0,
+        "word_acc_ignore_case_symbol": 0.0,
+        "char_recall": 0.1795,
+        "char_precision": 0.1772,
+        "one_minus_ned": 0.1132
+      }
+    },
+    {
+      "name": "demo_text_ocr.jpg",
+      "gt_det": 19,
+      "pred_det": 2,
+      "gt_rec": 19,
+      "pred_rec": 2,
+      "det": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "hmean": 0.0,
+        "gt_num": 19,
+        "pred_num": 2,
+        "match_num": 0
+      },
+      "rec": {
+        "word_acc": 0.0,
+        "word_acc_ignore_case": 0.0,
+        "word_acc_ignore_case_symbol": 0.0,
+        "char_recall": 0.0769,
+        "char_precision": 0.5,
+        "one_minus_ned": 0.0833
+      }
+    },
+    {
+      "name": "demo_text_recog.jpg",
+      "gt_det": 20,
+      "pred_det": 0,
+      "gt_rec": 20,
+      "pred_rec": 0,
+      "det": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "hmean": 0.0,
+        "gt_num": 20,
+        "pred_num": 0,
+        "match_num": 0
+      },
+      "rec": {}
+    }
+  ],
+  "avg_det": {
+    "precision": 0.3526,
+    "recall": 0.2631,
+    "hmean": 0.2997
+  },
+  "macro_det": {
+    "precision": 0.7786,
+    "recall": 0.6525,
+    "hmean": 0.71
+  },
+  "avg_rec": {
+    "word_acc": 0.0038,
+    "word_acc_ignore_case": 0.0038,
+    "word_acc_ignore_case_symbol": 0.0038,
+    "char_recall": 0.104,
+    "char_precision": 0.1976,
+    "one_minus_ned": 0.0696
+  }
+}
