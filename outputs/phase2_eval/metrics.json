@@ -7,20 +7,20 @@
       "gt_rec": 1724,
       "pred_rec": 1494,
       "det": {
-        "precision": 0.7952,
-        "recall": 0.6891,
-        "hmean": 0.7383,
+        "precision": 0.7959,
+        "recall": 0.6897,
+        "hmean": 0.739,
         "gt_num": 1724,
         "pred_num": 1494,
-        "match_num": 1188
+        "match_num": 1189
       },
       "rec": {
         "word_acc": 0.0027,
         "word_acc_ignore_case": 0.0027,
         "word_acc_ignore_case_symbol": 0.0027,
-        "char_recall": 0.1546,
-        "char_precision": 0.1909,
-        "one_minus_ned": 0.0924
+        "char_recall": 0.1541,
+        "char_precision": 0.1901,
+        "one_minus_ned": 0.092
       }
     },
     {
@@ -30,20 +30,20 @@
       "gt_rec": 90,
       "pred_rec": 62,
       "det": {
-        "precision": 0.4677,
-        "recall": 0.3222,
-        "hmean": 0.3816,
+        "precision": 0.4839,
+        "recall": 0.3333,
+        "hmean": 0.3947,
         "gt_num": 90,
         "pred_num": 62,
-        "match_num": 29
+        "match_num": 30
       },
       "rec": {
         "word_acc": 0.0161,
         "word_acc_ignore_case": 0.0161,
         "word_acc_ignore_case_symbol": 0.0161,
-        "char_recall": 0.1091,
-        "char_precision": 0.12,
-        "one_minus_ned": 0.059
+        "char_recall": 0.1045,
+        "char_precision": 0.1168,
+        "one_minus_ned": 0.0536
       }
     },
     {
@@ -94,15 +94,15 @@
     },
     {
       "name": "demo_text_recog.jpg",
-      "gt_det": 20,
+      "gt_det": 19,
       "pred_det": 0,
-      "gt_rec": 20,
+      "gt_rec": 19,
       "pred_rec": 0,
       "det": {
         "precision": 0.0,
         "recall": 0.0,
         "hmean": 0.0,
-        "gt_num": 20,
+        "gt_num": 19,
         "pred_num": 0,
         "match_num": 0
       },
@@ -110,21 +110,21 @@
     }
   ],
   "avg_det": {
-    "precision": 0.3526,
-    "recall": 0.2631,
-    "hmean": 0.2997
+    "precision": 0.356,
+    "recall": 0.2655,
+    "hmean": 0.3024
   },
   "macro_det": {
-    "precision": 0.7786,
-    "recall": 0.6525,
-    "hmean": 0.71
+    "precision": 0.7799,
+    "recall": 0.6539,
+    "hmean": 0.7113
   },
   "avg_rec": {
     "word_acc": 0.0038,
     "word_acc_ignore_case": 0.0038,
     "word_acc_ignore_case_symbol": 0.0038,
-    "char_recall": 0.104,
-    "char_precision": 0.1976,
-    "one_minus_ned": 0.0696
+    "char_recall": 0.103,
+    "char_precision": 0.1968,
+    "one_minus_ned": 0.0684
   }
 }
