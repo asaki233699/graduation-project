@@ -1,4 +1,4 @@
-name: mmcv_stable
+name: mmocr_phase3
 channels:
   - defaults
   - conda-forge
